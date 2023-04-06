@@ -13,6 +13,12 @@
 		7E0B772D29DC1B59002734F8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E0B772B29DC1B59002734F8 /* Main.storyboard */; };
 		7E0B772F29DC1B5A002734F8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7E0B772E29DC1B5A002734F8 /* Assets.xcassets */; };
 		7E0B773229DC1B5A002734F8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E0B773029DC1B5A002734F8 /* LaunchScreen.storyboard */; };
+		7E282B0329DE7C4700A4F73A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E282B0229DE7C4700A4F73A /* AppDelegate.swift */; };
+		7E282B0529DE7C4700A4F73A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E282B0429DE7C4700A4F73A /* SceneDelegate.swift */; };
+		7E282B0729DE7C4700A4F73A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E282B0629DE7C4700A4F73A /* ViewController.swift */; };
+		7E282B0A29DE7C4700A4F73A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E282B0829DE7C4700A4F73A /* Main.storyboard */; };
+		7E282B0C29DE7C4700A4F73A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7E282B0B29DE7C4700A4F73A /* Assets.xcassets */; };
+		7E282B0F29DE7C4700A4F73A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E282B0D29DE7C4700A4F73A /* LaunchScreen.storyboard */; };
 		FC34BDDCC121BCB8241291FD /* Pods_RxSwift_Practice.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DEC5D95ECDFBF6D5C528071C /* Pods_RxSwift_Practice.framework */; };
 /* End PBXBuildFile section */
 
@@ -26,6 +32,14 @@
 		7E0B772E29DC1B5A002734F8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7E0B773129DC1B5A002734F8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7E0B773329DC1B5A002734F8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7E282B0029DE7C4700A4F73A /* Firebase+RxSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Firebase+RxSwift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E282B0229DE7C4700A4F73A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7E282B0429DE7C4700A4F73A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		7E282B0629DE7C4700A4F73A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7E282B0929DE7C4700A4F73A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7E282B0B29DE7C4700A4F73A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7E282B0E29DE7C4700A4F73A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7E282B1029DE7C4700A4F73A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B42490C2AC4B6190BF94C270 /* Pods-RxSwift_Practice.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxSwift_Practice.release.xcconfig"; path = "Target Support Files/Pods-RxSwift_Practice/Pods-RxSwift_Practice.release.xcconfig"; sourceTree = "<group>"; };
 		DEC5D95ECDFBF6D5C528071C /* Pods_RxSwift_Practice.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RxSwift_Practice.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -39,6 +53,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		7E282AFD29DE7C4700A4F73A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -48,7 +69,6 @@
 				5FA946F25E975E960095DC20 /* Pods-RxSwift_Practice.debug.xcconfig */,
 				B42490C2AC4B6190BF94C270 /* Pods-RxSwift_Practice.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -64,6 +84,7 @@
 			isa = PBXGroup;
 			children = (
 				7E0B772429DC1B59002734F8 /* RxSwift_Practice */,
+				7E282B0129DE7C4700A4F73A /* Firebase+RxSwift */,
 				7E0B772329DC1B59002734F8 /* Products */,
 				3A25F546FD7067592D96E251 /* Pods */,
 				618EE0CBB521C550AFC982B8 /* Frameworks */,
@@ -74,6 +95,7 @@
 			isa = PBXGroup;
 			children = (
 				7E0B772229DC1B59002734F8 /* RxSwift_Practice.app */,
+				7E282B0029DE7C4700A4F73A /* Firebase+RxSwift.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -90,6 +112,20 @@
 				7E0B773329DC1B5A002734F8 /* Info.plist */,
 			);
 			path = RxSwift_Practice;
+			sourceTree = "<group>";
+		};
+		7E282B0129DE7C4700A4F73A /* Firebase+RxSwift */ = {
+			isa = PBXGroup;
+			children = (
+				7E282B0229DE7C4700A4F73A /* AppDelegate.swift */,
+				7E282B0429DE7C4700A4F73A /* SceneDelegate.swift */,
+				7E282B0629DE7C4700A4F73A /* ViewController.swift */,
+				7E282B0829DE7C4700A4F73A /* Main.storyboard */,
+				7E282B0B29DE7C4700A4F73A /* Assets.xcassets */,
+				7E282B0D29DE7C4700A4F73A /* LaunchScreen.storyboard */,
+				7E282B1029DE7C4700A4F73A /* Info.plist */,
+			);
+			path = "Firebase+RxSwift";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -114,6 +150,23 @@
 			productReference = 7E0B772229DC1B59002734F8 /* RxSwift_Practice.app */;
 			productType = "com.apple.product-type.application";
 		};
+		7E282AFF29DE7C4700A4F73A /* Firebase+RxSwift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7E282B1329DE7C4700A4F73A /* Build configuration list for PBXNativeTarget "Firebase+RxSwift" */;
+			buildPhases = (
+				7E282AFC29DE7C4700A4F73A /* Sources */,
+				7E282AFD29DE7C4700A4F73A /* Frameworks */,
+				7E282AFE29DE7C4700A4F73A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Firebase+RxSwift";
+			productName = "Firebase+RxSwift";
+			productReference = 7E282B0029DE7C4700A4F73A /* Firebase+RxSwift.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -125,6 +178,9 @@
 				LastUpgradeCheck = 1430;
 				TargetAttributes = {
 					7E0B772129DC1B59002734F8 = {
+						CreatedOnToolsVersion = 14.3;
+					};
+					7E282AFF29DE7C4700A4F73A = {
 						CreatedOnToolsVersion = 14.3;
 					};
 				};
@@ -143,6 +199,7 @@
 			projectRoot = "";
 			targets = (
 				7E0B772129DC1B59002734F8 /* RxSwift_Practice */,
+				7E282AFF29DE7C4700A4F73A /* Firebase+RxSwift */,
 			);
 		};
 /* End PBXProject section */
@@ -155,6 +212,16 @@
 				7E0B773229DC1B5A002734F8 /* LaunchScreen.storyboard in Resources */,
 				7E0B772F29DC1B5A002734F8 /* Assets.xcassets in Resources */,
 				7E0B772D29DC1B59002734F8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E282AFE29DE7C4700A4F73A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E282B0F29DE7C4700A4F73A /* LaunchScreen.storyboard in Resources */,
+				7E282B0C29DE7C4700A4F73A /* Assets.xcassets in Resources */,
+				7E282B0A29DE7C4700A4F73A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -213,6 +280,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		7E282AFC29DE7C4700A4F73A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E282B0729DE7C4700A4F73A /* ViewController.swift in Sources */,
+				7E282B0329DE7C4700A4F73A /* AppDelegate.swift in Sources */,
+				7E282B0529DE7C4700A4F73A /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
@@ -228,6 +305,22 @@
 			isa = PBXVariantGroup;
 			children = (
 				7E0B773129DC1B5A002734F8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		7E282B0829DE7C4700A4F73A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7E282B0929DE7C4700A4F73A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7E282B0D29DE7C4700A4F73A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7E282B0E29DE7C4700A4F73A /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -407,6 +500,62 @@
 			};
 			name = Release;
 		};
+		7E282B1129DE7C4700A4F73A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 99KS64JD42;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Firebase+RxSwift/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jeon.Firebase-RxSwift";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7E282B1229DE7C4700A4F73A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 99KS64JD42;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Firebase+RxSwift/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jeon.Firebase-RxSwift";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -424,6 +573,15 @@
 			buildConfigurations = (
 				7E0B773729DC1B5A002734F8 /* Debug */,
 				7E0B773829DC1B5A002734F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7E282B1329DE7C4700A4F73A /* Build configuration list for PBXNativeTarget "Firebase+RxSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E282B1129DE7C4700A4F73A /* Debug */,
+				7E282B1229DE7C4700A4F73A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
