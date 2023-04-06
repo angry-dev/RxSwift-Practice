@@ -27,7 +27,6 @@ class ViewController: UIViewController, UISearchBarDelegate {
         searchView
             .rx.text // RxCocoa의 Observable 속성
             .orEmpty // 옵셔널이 아니도록 만듭니다.
-            .debounce(RxTimeInterval.seconds(1), scheduler: MainScheduler.instance) // Wait 0.5 for changes.
             .distinctUntilChanged() // 새로운 값이 이전의 값과 같은지 확인합니다.
             .subscribe(onNext: { [unowned self] text in // 이 부분 덕분에 모든 새로운 값에 대한 알림을 받을 수 있습니다.
                 print(text)
